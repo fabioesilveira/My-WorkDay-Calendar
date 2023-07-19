@@ -58,9 +58,10 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  .answer {
-    color: rgb(124, 221, 231);
-    font-size: 25px;
-    margin-left: 4%;
-    font-family: 'Roboto', sans-serif;
-  }
+ .time {
+
+  display: inline-block;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 22px;
+  
+ }
