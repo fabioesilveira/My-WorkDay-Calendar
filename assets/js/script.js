@@ -8,10 +8,10 @@ $('#currentDay').text(dayWeek);
 var today = dayjs();
 
 $(function () {
-    var currentHour = dayjs().format("HH")
-    console.log (currentHour)
-    var timeblock = document.querySelectorAll('.time-block')
-    for (let i = 0; i < timeblock.length; i++) {
+      var currentHour = dayjs().format("HH")
+      console.log (currentHour)
+      var timeblock = document.querySelectorAll('.time-block')
+      for (let i = 0; i < timeblock.length; i++) {
       
       var timeblockid = timeblock[i].id.substring(5)
       console.log (timeblockid)
